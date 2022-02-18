@@ -1,0 +1,7 @@
+- shell:
+    - sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+- link:
+    ~/.zshrc:
+      force: true
+      path: zshrc
