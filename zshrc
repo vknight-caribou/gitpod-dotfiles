@@ -74,6 +74,9 @@ fi
 # Load ohmyzsh
 source $ZSH/oh-my-zsh.sh
 
+unalias gpf
+alias gpf="git push --force-with-lease"
+
 if command -v git-cz &>/dev/null; then
   unalias gc
   alias gc="git-cz"
